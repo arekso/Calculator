@@ -1,5 +1,5 @@
 //calculator screen
-screen.textContent = 
+//screen.textContent = 
 
 //buttons
 const btn1 = document.querySelector('#btn1');
@@ -32,7 +32,23 @@ btn1.addEventListener('click', () => {parseInt("9")});
 const btn0 = document.querySelector('#btn0');
 btn1.addEventListener('click', () => {parseInt("0")});
 
+const btnp = document.querySelector('#btnp');
+btn1.addEventListener('click', () => {add()});
 
+const btns = document.querySelector('#btns');
+btn1.addEventListener('click', () => {subtract()});
+
+const btnx = document.querySelector('#btnx');
+btn1.addEventListener('click', () => {multiply()});
+
+const btn0 = document.querySelector('#btn0');
+btn1.addEventListener('click', () => {parseInt("0")});
+
+function calculate (a, op, b) {
+    this.a = a;
+    this.b = b;
+
+}
 
 
 
