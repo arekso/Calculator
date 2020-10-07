@@ -6,48 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arek's Calculator</title>
     <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
-
-
 </head>
 
 <body>
-    <script src="main.js"></script>
 
-    <div id="hero" class="hero-image">
+    <div id ="hero" class ="hero-image">
         <form id="calculator">
             <div id="paragraph">
                 <h3>Basic Calculator</h3>
                 <p id="screen"></p>
+                <input type="text" class="display" disabled>
             </div>
+            
             <div id="buttons" class="buttons">
                 <div id="set1">
-                    <button id="btn1">1</button>
-                    <button id="btn2">2</button>
-                    <button id="btn3">3</button>
-                    <button id="btnp">+</button>
-                    <button id="btne">=</button>
+                    <input type="button" value="1"> 
+                    <input type="button" value="2"> 
+                    <input type="button" value="3"> 
+                    <input type="button" value="+"> 
+                    <input type="button" value="="> 
                 </div>
                 <div id="set2">
-                    <button id="btn5">4</button>
-                    <button id="btn6">5</button>
-                    <button id="btn7">6</button>
-                    <button id="btns">-</button>
+                    <input type="button" value="4"> 
+                    <input type="button" value="5"> 
+                    <input type="button" value="6"> 
+                    <input type="button" value="-"> 
                 </div>
                 <div id="set3">
-                    <button id="btn7">7</button>
-                    <button id="btn8">8</button>
-                    <button id="btn9">9</button>
-                    <button id="btnx">x</button>
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="*">
                 </div>
                 <div id="set4">
-                    <button id="btnC">C</button>
-                    <button id="btn0">0</button>
-                    <button id="btn_">.</button>
-                    <button id="btnd">÷</button>
+                    <input type="button" value="C">
+                    <input type="button" value="0">
+                    <input type="button" value=".">
+                    <input type="button" value="÷">
                 </div>
             </div>
         </form>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
+
+<!-- 
+<div id="buttons" class="buttons">
+                <div id="set1">
+                    <button id="btn1" value="1">1</button>
+                    <button id="btn2" value="2">2</button>
+                    <button id="btn3" value="3">3</button>
+                    <button id="btnp" value="+" class="operation">+</button>
+                    <button id="btne" value="=" class="operation">=</button>
+                </div>
+                <div id="set2">
+                    <button id="btn5" value="4">4</button>
+                    <button id="btn6" value="5">5</button>
+                    <button id="btn7" value="6">6</button>
+                    <button id="btns" value="-" class="operation">-</button>
+                </div>
+                <div id="set3">
+                    <button id="btn7" value="7">7</button>
+                    <button id="btn8" value="8">8</button>
+                    <button id="btn9" value="9">9</button>
+                    <button id="btnx" value="x"class="operation">x</button>
+                </div>
+                <div id="set4">
+                    <button id="btnC" value="C">C</button>
+                    <button id="btn0" value="0">0</button>
+                    <button id="btn_" value=".">.</button>
+                    <button id="btnd" value="÷" class="operation">÷</button>
+                </div>
+            </div>
+
+-->

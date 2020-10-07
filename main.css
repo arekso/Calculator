@@ -2,12 +2,12 @@
 
      #calculator {
         text-align: center;
-        border:  5px solid #2e8b57;
+        border:  0px solid #2e8b57;
         width: 300px;
         max-height: 700px;
-        background-color: rgb(0, 183, 255);
-        padding-top: 10px;
-        box-shadow: 10px 10px 8px #888888;
+        background-color: rgb(63, 180, 180);
+        padding-top: 5px;
+        box-shadow: 5px 5px 20px #888888;
      
     }
 
@@ -17,63 +17,57 @@
         width: 400px;
         margin-left: auto;
         margin-right: auto;
-        padding: 30px;
+        padding: 20px;
         left: 50%;
         right: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     h3{
-        height: 10px;
+        height: 0px;
         font-family: Verdana;
+        padding: 10px;
     }
 
-    p{
+    .display{
         background-color: rgb(27, 27, 27);
         font-size: medium;
         color: aliceblue;
         background-position: center;
         height: 80px;
-        border: 5px solid seagreen;
-        -webkit-box-shadow: 0 8px 6px -8px black;
-	    -moz-box-shadow: 0 8px 6px -8px black;
-	         box-shadow: 0 8px 6px -8px black;
+        width: 300px;
+        border: 0px solid seagreen;
     }
+
+   
+    input {
+        padding: 5px;
+        background-color:rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 2px;
+        border: 0px solid black;
+        font-size: 40px;
+        transition-duration: 0.2s;
+        text-align: center;
+        width: 50px;
+    }
+
+    #set1, #set2, #set3, #set4 {
+        padding-left: 10px;
+        float: left;
+    }
+
     .buttons {
         border: none;
         text-align: center;
         font-size: 40px;
     }
-   
-   
-    #btn1, #btn2, #btn3, 
-    #btn5, #btn6, #btn7, 
-    #btn8, #btn9, #btn0, 
-    #btnC, #btn_, #btnp, 
-    #btns, #btnx, #btne , #btnd {
-        background-color:blue;
-        color: white;
-        border-radius: 8px;
-        border: 1px solid black;
-        font-size: 40px;
-        transition-duration: 0.4s;
-        text-align: center;
-        width: 50px;
-        box-shadow: -3px -3px 3px inset #242424;
-    }
-
-    #set1{
-        padding-left: 10px;
-        float: left;
-    }
-
-    #set2, #set3, #set4 {
-        padding-left: 10px;
-        float: left;
-    }
+    .buttons:hover {
+        background-color: rgb(255, 255, 255);
+    } 
 
 }
 
@@ -84,6 +78,3 @@ body{
     background: radial-gradient(circle, rgb(207, 241, 247), aqua);
 }
 
-.hero-image {
-    background: url(https://images.pexels.com/photos/421129/pexels-photo-421129.jpeg);
-}
